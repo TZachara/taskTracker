@@ -27,4 +27,6 @@ const deleteTask = async (taskId) => {
     await task.remove();
 };
 
+// TODO: error handling for connections to DB would be nice
+
 module.exports = { getTask, getTasks, createTask, updateTask, deleteTask };
